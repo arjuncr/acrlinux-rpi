@@ -11,8 +11,8 @@ TEMPLATECONF=meta-raspberrypi/conf/ . oe-init-build-env
 bitbake core-image-base      
 
 ```
-Parsing recipes: 100% |#################################################################################| Time: 0:00:47
-Parsing of 2198 .bb files complete (0 cached, 2198 parsed). 3292 targets, 142 skipped, 0 masked, 0 errors.
+Parsing recipes: 100% |#################################################################################| Time: 0:01:25
+Parsing of 2200 .bb files complete (0 cached, 2200 parsed). 3294 targets, 143 skipped, 0 masked, 0 errors.
 NOTE: Resolving any missing task queue dependencies
 
 Build Configuration:
@@ -27,13 +27,13 @@ TUNE_FEATURES        = "arm vfp cortexa7 neon vfpv4 thumb callconvention-hard"
 TARGET_FPU           = "hard"
 meta
 meta-poky
-meta-yocto-bsp       = "dunfell:60cfe38b513d474714500d1f5fcf408139c6a146"
-meta-raspberrypi     = "dunfell:59c2d6f7a8b1239bd7b587b9180c2a55f9c695a2"
+meta-yocto-bsp
+meta-acrlinux
+meta-raspberrypi
 meta-oe
 meta-multimedia
 meta-networking
-meta-python          = "dunfell:5c347d8ce425dcb4896e6f873810b8bfff5e4e92"
-
+meta-python          = "master:03676983f69f1b5896a22237c984eca7d6485220"
 ```
 
 Build Image Location:  
