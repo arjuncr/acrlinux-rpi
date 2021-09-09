@@ -10,6 +10,7 @@ BBLAYERS ?= " \
   ${TOPDIR}/../meta \
   ${TOPDIR}/../meta-poky \
   ${TOPDIR}/../meta-yocto-bsp \
+  ${TOPDIR}/../meta-acrlinux \
   ${TOPDIR}/../meta-raspberrypi \
   ${TOPDIR}/../meta-openembedded/meta-oe \
   ${TOPDIR}/../meta-openembedded/meta-multimedia \

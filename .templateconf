@@ -1,1 +1,1 @@
-poky/.templateconf
+TEMPLATECONF=${TEMPLATECONF:-meta-raspberrypi/conf}
