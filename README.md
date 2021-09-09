@@ -1,7 +1,6 @@
 # acrlinux-rpi-yocto
-acrlinux-rpi  
 
-Build steps:  
+Build Steps:  
 
 git clone https://github.com/arjuncr/acrlinux-rpi-yocto.git      
 
@@ -37,11 +36,11 @@ meta-python          = "dunfell:5c347d8ce425dcb4896e6f873810b8bfff5e4e92"
 
 ```
 
-build image location:  
+Build Image Location:  
 build/tmp/deploy/images/repberrypi4/core-image-base-raspberrypi4.wic.bz2    
 
-extract the zip:  
+Extract The zip:  
 bzip2 -d -f tmp/deploy/images/raspberrypi4/core-image-base-raspberrypi4.wic.bz2   
 
-Then copy this image to sd card  
+Then Copy Image To sd Card  
 https://www.raspberrypi.org/documentation/installation/installing-images/
