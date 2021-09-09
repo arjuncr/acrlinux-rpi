@@ -6,7 +6,7 @@ git clone https://github.com/arjuncr/acrlinux-rpi-yocto.git
 
 cd acrlinux-rpi-yocto   
 
-. oe-init-build-env   
+TEMPLATECONF=meta-raspberrypi/conf/ . oe-init-build-env
 
 bitbake core-image-base      
 
