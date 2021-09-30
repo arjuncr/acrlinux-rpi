@@ -2,7 +2,7 @@
 
 Build Steps:  
 
-git clone https://github.com/arjuncr/acrlinux-rpi-yocto.git      
+git clone --recurse-submodules https://github.com/arjuncr/acrlinux-rpi-yocto.git      
 
 cd acrlinux-rpi-yocto   
 
